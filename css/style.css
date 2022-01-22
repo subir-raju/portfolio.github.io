@@ -41,6 +41,31 @@ html::-webkit-scrollbar-thumb{
 body{
     background: #111;
     overflow-x: hidden;
+    padding-left: 35rem;
+}
+
+section{
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.btn{
+    padding: .7rem 3rem;
+    background: #333;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.btn i{
+    padding: 0 .5rem;
+    font-size: 1.8rem;
+}
+
+.btn:hover{
+    background: var(--yellow);
 }
 
 header{
@@ -113,7 +138,27 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
 
+.home h3{
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+.home h1{
+    font-size: 5rem;
+    color: whitesmoke;
+}
+
+.home p{
+    font-size: 2rem;
+    color: whitesmoke;
+    padding: 1rem 0;
+}
 
 
 
